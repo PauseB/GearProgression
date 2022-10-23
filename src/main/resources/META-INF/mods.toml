@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All rights reserved"
+[[mods]]
+modId="gearprogression"
+version="1.0"
+displayName="Gear Progression"
+logoFile="examplemod.png"
+credits="You guys"
+authors="PauseB"
+description="""
+Add some features enough to make tools your best companion.
+"""
+
+[[dependencies.gearprogression]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gearprogression]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
