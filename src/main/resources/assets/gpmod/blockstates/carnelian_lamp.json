@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "gpmod:block/carnelian_lamp_on" },
+    "lit=false": { "model": "gpmod:block/carnelian_lamp_off" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "item.gpmod.carnelian": "Carnelian",
+  "item.gpmod.raw_carnelian": "Raw Carnelian",
+  "item.gpmod.coffee_beans": "Coffee Beans",
+  "item.gpmod.coffee": "Coffee",
+
+  "block.gpmod.carnelian_ore": "Carnelian Ore",
+  "block.gpmod.carnelian_block": "Carnelian Block",
+  "block.gpmod.carnelian_lamp": "Carnelian Lamp",
+  "block.gpmod.coffee_crop": "Coffee Crop",
+
+  "itemGroup.gptab": "Gear P",
+
+  "tooltip.gpmod.hold_shift": "Hold SHIFT for more info",
+  "tooltip.gpmod.coffee": "Grants movement speed and mining speed"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "gpmod:carnelian"
+    }
+  },
+  "result": {
+    "item": "gpmod:carnelian_block"
+  }
+}

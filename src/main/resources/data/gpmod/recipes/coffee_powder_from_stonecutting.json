@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "gpmod:roasted_coffee_beans"
+  },
+  "result": "gpmod:coffee_powder"
+}

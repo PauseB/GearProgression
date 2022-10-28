@@ -5,8 +5,8 @@ plugins {
 }
 
 version = '1.0'
-group = 'com.pauseb.gearprogression'
-archivesBaseName = 'gearprogression'
+group = 'com.pauseb.gpmod'
+archivesBaseName = 'gpmod'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -35,7 +35,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', archivesBaseName
 
             mods {
-                gearprogression {
+                gpmod {
                     source sourceSets.main
                 }
             }
@@ -47,7 +47,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', archivesBaseName
 
             mods {
-                gearprogression {
+                gpmod {
                     source sourceSets.main
                 }
             }
@@ -63,7 +63,7 @@ minecraft {
             args '--mod', archivesBaseName, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                gearprogression {
+                gpmod {
                     source sourceSets.main
                 }
             }

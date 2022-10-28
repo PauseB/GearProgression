@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "coffee",
+  "ingredient": {
+    "item": "gpmod:coffee_beans"
+  },
+  "result": "gpmod:roasted_coffee_beans"
+}

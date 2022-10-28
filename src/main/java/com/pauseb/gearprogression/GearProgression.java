@@ -1,6 +1,10 @@
 package com.pauseb.gearprogression;
 
 import com.mojang.logging.LogUtils;
+import com.pauseb.gearprogression.block.ModBlocks;
+import com.pauseb.gearprogression.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,11 +17,14 @@ import org.slf4j.Logger;
 
 @Mod(GearProgression.MOD_ID)
 public class GearProgression {
-    public static final String MOD_ID = "gearprogression";
+    public static final String MOD_ID = "gpmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public GearProgression(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
     }
@@ -30,7 +37,7 @@ public class GearProgression {
     public static class ClientModEvents{
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event){
-
+            //ItemBlockRenderTypes.setRenderLayer(ModBlocks.COFFEE_CROP.get(), RenderType.cutout());
         }
     }
 }

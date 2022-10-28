@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="[43,)"
 license="All rights reserved"
 [[mods]]
-modId="gearprogression"
+modId="gpmod"
 version="1.0"
 displayName="Gear Progression"
 logoFile="examplemod.png"
@@ -12,13 +12,13 @@ description="""
 Add some features enough to make tools your best companion.
 """
 
-[[dependencies.gearprogression]]
+[[dependencies.gpmod]]
     modId="forge"
     mandatory=true
     versionRange="[43,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.gearprogression]]
+[[dependencies.gpmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2,1.20)"

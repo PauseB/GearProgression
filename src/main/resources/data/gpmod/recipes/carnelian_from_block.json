@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gpmod:carnelian_block"
+    }
+  ],
+  "result": {
+    "item": "gpmod:carnelian",
+    "count": 9
+  }
+}

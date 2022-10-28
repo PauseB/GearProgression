@@ -1,0 +1,17 @@
+{
+  "item.gpmod.carnelian": "카닐리언",
+  "item.gpmod.raw_carnelian": "카닐리언 원석",
+  "item.gpmod.coffee_beans": "원두",
+  "item.gpmod.roasted_coffee_beans": "로스팅한 원두",
+  "item.gpmod.coffee": "커피",
+
+  "block.gpmod.carnelian_ore": "카닐리언 광석",
+  "block.gpmod.carnelian_block": "카닐리언 블록",
+  "block.gpmod.carnelian_lamp": "카닐리언 램프",
+  "block.gpmod.coffee_crop": "커피나무",
+
+  "itemGroup.gptab": "기어 P",
+
+  "tooltip.gpmod.hold_shift": "SHIFT 키를 눌러 펼치기",
+  "tooltip.gpmod.coffee": "2분간 이동 속도와 채광 속도를 얻습니다"
+}
